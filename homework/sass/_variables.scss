@@ -1,0 +1,21 @@
+// font weight
+$font-400: normal;
+$font-600: 600;
+$font-700: bold;
+
+// colors
+$bg-dark-blue: #212739;
+$bg-light-blue: #219fec;
+$text-color: rgb(218, 220, 244);
+
+// mixin
+@mixin setFlex(
+	$flex-direction,
+	$justify-content: center,
+	$align-items: center
+) {
+	display: flex;
+	flex-direction: $flex-direction;
+	justify-content: $justify-content;
+	align-items: $align-items;
+}
